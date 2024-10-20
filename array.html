@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //splice
+        let arr=[1,2,3,5,9]
+        arr.slice(1,3)
+        console.log(arr)
+        let arr2=["hai",8,"hello",10,undefined]
+        arr2.slice(2,5)
+        console.log(arr2)
+        arr3=[1,"string",null,[],6,"helloworld"]
+        arr3.slice(2,6)
+        console.log(arr3)
+        //push
+        arr1=[1,2,3,5,9]
+        arr1.push("abc")
+        console.log(arr1)
+        arr4=["hai",8,"hello",10,undefined]
+        arr4.push(9,29)
+        console.log(arr4)
+        arr5=[1,"string",null,[],6,"helloworld",0]
+        arr5.push("hai",278,0)
+        console.log(arr5)
+        //pop
+        arr6=[2,"insert",{},[2,3],67]
+        arr6.pop()
+        console.log(arr6)
+        arr7=["element",0,"hi",5,35,89]
+        arr7.pop()
+        console.log(arr7)
+        //unshift
+        arr1=[1,2,3,5,9]
+        arr1.unshift("hello")
+        console.log(arr1)
+        arr4=["hai",8,"hello",10,undefined]
+        arr4.unshift(9,29)
+        console.log(arr4)
+        arr5=[1,"string",null,[],6,"helloworld",0]
+        arr5.unshift("hai",278,0)
+        console.log(arr5)
+        //shift
+        arr6=["insert",2,{},[2,3],9]
+        arr6.shift()
+        console.log(arr6)
+        arr7=["element",0,"hi",5,35,89]
+        arr7.shift()
+        console.log(arr7)
+        //splice
+        arr8=[1,3,"sita",[55,"hi",74],0,[]]
+        arr8.splice(2,4,"ramya")
+        console.log(arr8)
+        arr9=[{},77,"world",38]
+        arr9.splice(0,3,7)
+        console.log(arr9)
+        arr10=[1,"string",null,[],6,"helloworld",0]
+        arr10.splice(2,4,85)
+        console.log(arr10)
+        //reverse
+        arr4=["hai",8,"hello",10,undefined]
+        arr4.reverse()
+        console.log(arr4)
+        arr5=[1,"string",null,[],6,"helloworld",0]
+        arr5.reverse()
+        console.log(arr5)
+        //join
+        arr10=[1,5,"hello",66]
+        let arr11=arr10.join("-")
+        console.log(arr11)
+        arr12=["hai",8,"hello",10,undefined]
+        arr13=arr12.join("-")
+        console.log(arr13)
+        //indexof
+        let arr15=[1,2,3,5,9]
+        arr16=console.log(arr15.indexOf(3))
+        let arr17=["hai",8,"hello",10,undefined]
+         arr18=arr17.indexOf(8)
+        console.log(arr18)
+        let arr19=[1,"string",null,[],6,"helloworld",0]
+         arr20=arr19.indexOf(0)
+        console.log(arr20)
+        //lastindexof
+        let arr21=[1,3,7,9,6]
+        console.log(arr21.lastIndexOf(6))
+        let arr22=["siri",[3,5,9],87,0,"string",[3,9],98]
+        console.log(arr22.lastIndexOf(98))
+        //includes
+        let arr23=[1,7,88,99,55,0,33]
+        console.log(arr23.includes(0))
+        let arr24=[9,"hi",99,{},0,33]
+        console.log(arr24.includes(8))
+        let arr25=[[],7,88,"world",55,0]
+        console.log(arr25.includes(0))
+        //flat
+        let arr26=[[1,2,3],[7,8,5],"helloworld"]
+        let arr27=arr26.flat()
+        console.log(arr27)
+        let arr28=["javascript",[7,8,5],"helloworld",76,89]
+        let arr29=arr28.flat()
+        console.log(arr29)
+        let arr30=[65,[7,8,5],"helloworld",[7,[4,7,9]],"java"]
+        let arr31=arr30.flat()
+        console.log(arr31)
+
+        // even numbers in the array
+        let arr32=[1,2,4,8,9,66,45,72,89,13,56,37]
+        for(i=0;i<=arr32.length-1;i++){
+            if(arr32[i]%2===0){
+                console.log(arr32[i])
+            }
+        }
+    </script>
+</body>
+</html>
